@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    color: #075E54;
+}
+
+section {
+    background: #25D366;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+input {
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+textarea {
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #25D366;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+}
