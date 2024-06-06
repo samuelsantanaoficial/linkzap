@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gerador de Link</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gerador de link para Whatsapp</h1>
+    </header>
+    <form>
+      <input type="tel" id="tel" placeholder="Número de Telefone"><br>
+      <textarea name="" id="text" cols="32" rows="10" placeholder="Texto (opcional)"></textarea><br>
+      <input type="button" value="Gerar Link" onclick="gerarLink()" class="btn">
+    </form>
+    <section>
+        <p>Pronto! Copie o link e compartilhe!</p>
+        <input type="link" id="link">
+        <br>
+        <p id="a"></p>
+    </section>
+    
+  <script src="main.js"></script>
+</body>
+</html>
